@@ -1,0 +1,37 @@
+<template>
+	<lightning-card variant="Narrow" title={metaDataComponent}>
+		<template if:true={isLoading}>
+			<lightning-spinner alternative-text="Loading" size="large"></lightning-spinner>
+		</template>
+		<div class="slds-p-horizontal_small">
+			<div if:true={showFirstScreen}>
+				<div class="slds-grid slds-gutters">
+					<div class="slds-col">
+						<lightning-input type="Date" variant="standard" name={labelStartDate} label={labelStartDate} value={startDate}
+							onchange={handleChange}></lightning-input>
+					</div>
+					<div class="slds-col">
+						<lightning-input type="Date" variant="standard" name={labelEndDate} label={labelEndDate} value={endDate}
+							onchange={handleChange}></lightning-input>
+					</div>
+				</div>
+				<lightning-radio-group name="radioGroup" label={labelRadioButton} options={options} value={selectedType}
+					onchange={handleChange} type="radio">
+				</lightning-radio-group>
+			</div>
+            <div if:true={showSecondScreen}>
+                <div class="slds-form-element">
+                    <label class="slds-form-element__label">{labelTextArea}</label>
+                    <div class="slds-form-element__control">
+                        <textarea rows=10 class="slds-textarea" readonly >{data}</textarea>
+                    </div>
+                </div>
+            </div>
+		</div>
+		<p slot="footer">
+			<lightning-button variant="Brand" label={labelButton} title="titleName" onclick={handleClick}></lightning-button>
+            <lightning-button class="slds-m-left_small" variant="Brand" label={labelDownlaod} title={labelDownlaod} onclick={handleClick} if:true={showSecondScreen}></lightning-button>
+            <lightning-button class="slds-m-left_small" variant="Brand" label={labelCopy} title={labelCopy} onclick={handleClick} if:true={showSecondScreen}></lightning-button>
+		</p>
+	</lightning-card>
+</template>

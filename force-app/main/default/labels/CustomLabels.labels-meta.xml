@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Back</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Back</shortDescription>
+        <value>Back</value>
+    </labels>
+    <labels>
+        <fullName>CSV</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CSV</shortDescription>
+        <value>CSV</value>
+    </labels>
+    <labels>
+        <fullName>CSV_Data</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>CSV Data</shortDescription>
+        <value>CSV Data</value>
+    </labels>
+    <labels>
+        <fullName>Component_Name_Component_Type_Last_Modified_Date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Component Name,Component Type,Last Modified Date</shortDescription>
+        <value>Component Name,Component Type,Last Modified Date</value>
+    </labels>
+    <labels>
+        <fullName>Copy</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Copy</shortDescription>
+        <value>Copy</value>
+    </labels>
+    <labels>
+        <fullName>Data_copied</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Data copied!</shortDescription>
+        <value>Data copied!</value>
+    </labels>
+    <labels>
+        <fullName>Download</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Download</shortDescription>
+        <value>Download</value>
+    </labels>
+    <labels>
+        <fullName>EndDate</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>EndDate</shortDescription>
+        <value>End Date</value>
+    </labels>
+    <labels>
+        <fullName>Error</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Error</shortDescription>
+        <value>Error</value>
+    </labels>
+    <labels>
+        <fullName>Kindly_input_the_end_date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Kindly input the end date.</shortDescription>
+        <value>Kindly input the end date.</value>
+    </labels>
+    <labels>
+        <fullName>Kindly_provide_the_start_date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Kindly provide the start date.</shortDescription>
+        <value>Kindly provide the start date.</value>
+    </labels>
+    <labels>
+        <fullName>Meta_Morphing_Monitor</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Meta-Morphing Monitor</shortDescription>
+        <value>Meta-Morphing Monitor</value>
+    </labels>
+    <labels>
+        <fullName>Please_input_a_end_date_that_is_earlier_than_today_s_date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please input a end date that is earlier than today&apos;s date.</shortDescription>
+        <value>Please input a end date that is earlier than today&apos;s date.</value>
+    </labels>
+    <labels>
+        <fullName>Please_input_a_start_date_that_is_earlier_than_today_s_date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please input a start date that is earlier than today&apos;s date.</shortDescription>
+        <value>Please input a start date that is earlier than today&apos;s date.</value>
+    </labels>
+    <labels>
+        <fullName>Please_select_Retrieve_Data</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please select &apos;Retrieve Data&apos;.</shortDescription>
+        <value>Please select &apos;Retrieve Data&apos;.</value>
+    </labels>
+    <labels>
+        <fullName>Please_specify_the_type_of_data_retrieval</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please specify the type of data retrieval.</shortDescription>
+        <value>Please specify the type of data retrieval.</value>
+    </labels>
+    <labels>
+        <fullName>StartDate</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>StartDate</shortDescription>
+        <value>Start Date</value>
+    </labels>
+    <labels>
+        <fullName>Submit</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Submit</shortDescription>
+        <value>Submit</value>
+    </labels>
+    <labels>
+        <fullName>Success</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Success</shortDescription>
+        <value>Success</value>
+    </labels>
+    <labels>
+        <fullName>The_end_date_must_be_greater_than_or_equal_to_the_start_date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>The end date must be greater than or equal to the start date.</shortDescription>
+        <value>The end date must be greater than or equal to the start date.</value>
+    </labels>
+    <labels>
+        <fullName>XML</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>XML</shortDescription>
+        <value>XML</value>
+    </labels>
+    <labels>
+        <fullName>XML_Data</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>XML Data</shortDescription>
+        <value>XML Data</value>
+    </labels>
+    <labels>
+        <fullName>application_xml</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>application/xml</shortDescription>
+        <value>data:application/xml;charset=utf-8,</value>
+    </labels>
+    <labels>
+        <fullName>data_csv</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>data.csv</shortDescription>
+        <value>data.csv</value>
+    </labels>
+    <labels>
+        <fullName>data_xml</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>data.xml</shortDescription>
+        <value>data.xml</value>
+    </labels>
+    <labels>
+        <fullName>text_csv</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>text/csv</shortDescription>
+        <value>data:text/csv;charset=utf-8,</value>
+    </labels>
+    <labels>
+        <fullName>xmlEndLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>xmlEndLabel</shortDescription>
+        <value>&lt;version&gt;59.0&lt;/version&gt;</value>
+    </labels>
+    <labels>
+        <fullName>xmlStartLabel</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>xmlStartLabel</shortDescription>
+        <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
+&lt;Package xmlns=&quot;http://soap.sforce.com/2006/04/metadata&quot;&gt;</value>
+    </labels>
+</CustomLabels>
