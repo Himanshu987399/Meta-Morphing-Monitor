@@ -197,4 +197,25 @@
         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
 &lt;Package xmlns=&quot;http://soap.sforce.com/2006/04/metadata&quot;&gt;</value>
     </labels>
+    <labels>
+        <fullName>HardRefresh</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HardRefresh</shortDescription>
+        <value>Hard Refresh</value>
+    </labels>
+    <labels>
+        <fullName>No_metadata_found_between_start_date_and_end_date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No metadata found between start date and end date!</shortDescription>
+        <value>No metadata found between start date and end date</value>
+    </labels>
+    <labels>
+        <fullName>Warning</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Warning</shortDescription>
+        <value>Warning</value>
+    </labels>
 </CustomLabels>

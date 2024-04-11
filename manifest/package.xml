@@ -2,18 +2,17 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
 	<types>
 		<members>IntegrationUtils</members>
-		<members>MetaDataComponent</members>
 		<members>MetaDataComponentChangeCont</members>
-		<members>MetadataComponentDependency</members>
 		<members>ResponseData</members>
+		<members>MetaDataComponent</members>
+		<members>MetadataComponentDependency</members>
 		<name>ApexClass</name>
+	</types>	
+	<types>
+		<members>metaDataComponentChange</members>
+		<name>LightningComponentBundle</name>
 	</types>
 	<types>
-		<members>sessionIdVfPage</members>
-		<name>ApexPage</name>
-	</types>
-	<types>
-		<members>Back</members>
 		<members>CSV</members>
 		<members>CSV_Data</members>
 		<members>Component_Name_Component_Type_Last_Modified_Date</members>
@@ -41,11 +40,10 @@
 		<members>text_csv</members>
 		<members>xmlEndLabel</members>
 		<members>xmlStartLabel</members>
+		<members>Warning</members>
+		<members>No_metadata_found_between_start_date_and_end_date</members>
+		<members>HardRefresh</members>
 		<name>CustomLabel</name>
 	</types>
-	<types>
-		<members>metaDataComponentChange</members>
-		<name>LightningComponentBundle</name>
-	</types>
-	<version>58.0</version>
+	<version>59.0</version>
 </Package>
