@@ -59,6 +59,7 @@
 		<members>Warning</members>
 		<members>No_metadata_found_between_start_date_and_end_date</members>
 		<members>HardRefresh</members>
+		<members>Back</members>
 		<name>CustomLabel</name>
 	</types>
 	<version>59.0</version>

@@ -2,11 +2,16 @@
   "packageDirectories": [
     {
       "path": "force-app",
-      "default": true
+      "package": "Deployment checklist generator",
+      "versionName": "ver 0.1",
+      "versionNumber": "0.1.0.NEXT"
     }
   ],
-  "name": "NewMorph",
-  "namespace": "",
+  "namespace": "cxdc",
   "sfdcLoginUrl": "https://login.salesforce.com",
-  "sourceApiVersion": "59.0"
+  "sourceApiVersion": "53.0",
+  "packageAliases": {
+    "Deployment checklist generator": "0Ho5j00000000mUCAQ",
+    "Deployment checklist generator@0.1.0-1": "04t5j000000uqD6AAI"
+  }
 }

@@ -8,7 +8,6 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
-    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Deployment Checklist Generator</label>
     <navType>Standard</navType>
     <tabs>Deployment_checklist_generator</tabs>
