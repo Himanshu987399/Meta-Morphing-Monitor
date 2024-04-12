@@ -1,13 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
     <labels>
-        <fullName>Back</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Back</shortDescription>
-        <value>Back</value>
-    </labels>
-    <labels>
         <fullName>CSV</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -64,6 +57,13 @@
         <value>Error</value>
     </labels>
     <labels>
+        <fullName>HardRefresh</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HardRefresh</shortDescription>
+        <value>Hard Refresh</value>
+    </labels>
+    <labels>
         <fullName>Kindly_input_the_end_date</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -83,6 +83,13 @@
         <protected>true</protected>
         <shortDescription>Meta-Morphing Monitor</shortDescription>
         <value>Meta-Morphing Monitor</value>
+    </labels>
+    <labels>
+        <fullName>No_metadata_found_between_start_date_and_end_date</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>No metadata found between start date and end date!</shortDescription>
+        <value>No metadata found between start date and end date</value>
     </labels>
     <labels>
         <fullName>Please_input_a_end_date_that_is_earlier_than_today_s_date</fullName>
@@ -141,6 +148,13 @@
         <value>The end date must be greater than or equal to the start date.</value>
     </labels>
     <labels>
+        <fullName>Warning</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Warning</shortDescription>
+        <value>Warning</value>
+    </labels>
+    <labels>
         <fullName>XML</fullName>
         <language>en_US</language>
         <protected>true</protected>
@@ -196,26 +210,5 @@
         <shortDescription>xmlStartLabel</shortDescription>
         <value>&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;yes&quot;?&gt;
 &lt;Package xmlns=&quot;http://soap.sforce.com/2006/04/metadata&quot;&gt;</value>
-    </labels>
-    <labels>
-        <fullName>HardRefresh</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>HardRefresh</shortDescription>
-        <value>Hard Refresh</value>
-    </labels>
-    <labels>
-        <fullName>No_metadata_found_between_start_date_and_end_date</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>No metadata found between start date and end date!</shortDescription>
-        <value>No metadata found between start date and end date</value>
-    </labels>
-    <labels>
-        <fullName>Warning</fullName>
-        <language>en_US</language>
-        <protected>true</protected>
-        <shortDescription>Warning</shortDescription>
-        <value>Warning</value>
     </labels>
 </CustomLabels>
